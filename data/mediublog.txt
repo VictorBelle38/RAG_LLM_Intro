@@ -1,0 +1,16 @@
+In recent months, we’ve witnessed an explosion of interest in multi-agent systems powered by LLM.
+
+The excitement surrounding these systems stems from their impressive ability to decompose complex tasks and work collaboratively to address complex problems.
+
+However, as developers rush to adopt and deploy MAS-based solutions, a critical aspect remains under-discussed: security.
+
+Multi-agent systems introduce unique security challenges that go beyond those of single LLMs. By design, a multi-agent system consists of multiple LLM-powered agents interacting with each other, making autonomous decisions, accessing external data and tools, and possibly generating/executing code. All these aspects introduced expanded attack surfaces.
+
+In this blog, let’s explore the security landscape of LLM-powered multi-agent systems through a practical lens. We aim to answer three questions:
+
+Why are multi-agent systems inherently vulnerable to cybersecurity attacks?
+What are the major attack vectors that exploit these vulnerabilities?
+How do these attacks manifest in real-world scenarios, and what impact can they have?
+This post aims to raise awareness about these vulnerabilities so developers can incorporate security thinking from the earliest stages of development.
+
+Note that this post is not intented to be an academic paper aiming for exhaustive classification of different threat types. Instead, it serves as a practical guide that highlights key vulnerabilities developers likely to encounter when building multi-agent systems applications.
